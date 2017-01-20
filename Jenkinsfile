@@ -3,7 +3,7 @@
 node {
     def MSBuild = "${tool 'MSBuild'}\\MSBuild.exe"
     stage('Checkout') { // for display purposes
-        git credentialsId: url: 'https://github.com/PortiaSA/corporateServices.git'
+        git url: 'https://github.com/PortiaSA/corporateServices.git'
 
     }
     stage('Package Restore'){
