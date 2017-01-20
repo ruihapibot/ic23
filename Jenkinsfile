@@ -2,6 +2,6 @@
 
 node {
     stage('Checkout') { // for display purposes
-		echo "ola do master"
+		echo "ola do 2"
     }
 }
